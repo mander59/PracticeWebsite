@@ -1,0 +1,48 @@
+
+
+/*--------Big Tablet to Smaller Computers: from 768 to 1200px (Widths smaller than the 1140px row)--------*/
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+
+    .row { padding: 0 2%; }
+}
+
+/*--------Small Tablet to Big Tablet: from 768 to 1023px--------*/
+@media only screen and (max-width: 1023px) {
+    body { font-size: 18px; }
+    section { padding: 60px 0; }
+    
+    .long-copy {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .steps-box { margin-top: 10px; }
+    .steps-box:last-child { margin-top: 10px; }
+
+    .works-steps { margin-bottom: 40px; }
+    .works-steps:last-of-type { margin-bottom: 60px; }
+
+    .app-screen { width: 50%; }
+
+    .icon-small {
+        width: 17px;
+        margin-right: 5px;
+    }
+
+    .city-feature { font: 90%; }
+}
+
+/*--------Small Phones to small tablets: from 481 to 767px--------*/
+@media only screen and (max-width: 767px) {
+
+}
+
+/*--------Small Phones: from 0 to 480px--------*/
+@media only screen and (max-width: 480px) {
+
+}
+
